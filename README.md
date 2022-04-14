@@ -1,3 +1,4 @@
+# For CentOS 7
 rpm -ivh http://rpms.litespeedtech.com/centos/litespeed-repo-1.1-1.el7.noarch.rpm
 
 yum install epel-release
@@ -6,16 +7,14 @@ yum install openlitespeed
 
 yum install lsphp74 lsphp74-json lsphp74-xmlrpc lsphp74-xml lsphp74-tidy lsphp74-soap lsphp74-snmp lsphp74-pspell lsphp74-process lsphp74-pgsql lsphp74-pear lsphp74-pdo lsphp74-opcache lsphp74-odbc lsphp74-mysqlnd lsphp74-mcrypt lsphp74-mbstring lsphp74-ldap lsphp74-intl lsphp74-imap lsphp74-gmp lsphp74-gd lsphp74-enchant lsphp74-dba lsphp74-common lsphp74-bcmath lsphp74-memcached lsphp74-redis
 
-#for CentOS 7
-
+# For Ubuntu
 wget -O - http://rpms.litespeedtech.com/debian/enable_lst_debian_repo.sh | bash
 
 apt install openlitespeed
 
 apt install lsphp74 lsphp74-common lsphp74-curl lsphp74-dev lsphp74-imap lsphp74-intl lsphp74-json lsphp74-ldap lsphp74-mysql lsphp74-opcache lsphp74-pspell lsphp74-memcached lsphp74-redis lsphp74-sqlite3 lsphp74-tidy
 
-#for Ubuntu
-
+## For eveyone
 
 groupadd group-name
 
